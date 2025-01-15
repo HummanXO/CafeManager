@@ -118,6 +118,7 @@ class OrderViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Cafe Mario"
         view.backgroundColor = .white
         setupLayout()
         setupActions()
